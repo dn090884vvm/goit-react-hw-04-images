@@ -39,7 +39,7 @@ export default function App() {
           return;
         }
         if (page > data.totalHits / 12) {
-          alert('Oops, you have alredy got all pictures we have))).');
+          alert('Oops, you have already got all pictures we have))).');
 
           setIsLoading(false);
           return;
